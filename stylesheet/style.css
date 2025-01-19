@@ -5,8 +5,11 @@
     color: rgba(213, 214, 216, 1);
 }
 
-header{
+.display-flex{
     display: flex;
+}
+
+header{
     width: 1280px;
     height: 52px;
     margin: 0 160px;
@@ -42,7 +45,6 @@ header button{
 /* section */
 
 section{
-    display: flex;
     align-items: center;
     width: 1280px;
     height: 560px;
