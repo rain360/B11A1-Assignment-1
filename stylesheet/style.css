@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600;700;800&display=swap');
+
+
+
+.body{
+    color: rgba(213, 214, 216, 1);
+    align-items: flex-start;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav{
+}
+nav div li{
+    text-decoration: none;
+}
+
+.header-logo{
+    list-style: none;
+    color: #0E0E0E;
+    font-family: "Fira Sans";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+header button{
+    color: #006A50;
+    font-family: "Fira Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    padding: 15px 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid #006A50;
+}
+/* section */
+
+section{
+    display: flex;
+    align-items: center;
+    width: 1280px;
+    height: 560px;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+}
+
+section div h3{
+    color: rgba(14, 14, 14, 0.50);
+    font-family: "Fira Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+section div p{
+    color: #0E0E0E;
+    font-family: "Fira Sans";
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+}
+section div button{
+    background-color: #006A50;
+    font-family: "Fira Sans";
+    color: white;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    padding: 15px 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border:none
+}
+section{
+
+}
