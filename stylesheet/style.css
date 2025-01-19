@@ -10,9 +10,7 @@
 }
 
 header{
-    width: 1280px;
-    height: 52px;
-    margin: 0 160px;
+    margin:24px 160px 0px 160px;
     justify-content: space-between;
     align-items: center;
 }
@@ -24,13 +22,14 @@ nav div li{
 .header-logo{
     list-style: none;
     color: #0E0E0E;
-    font-family: "Fira Sans";
+    font-family:"Fira Sans";
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
 }
 
 header button{
+    
     color: #006A50;
     font-family: "Fira Sans";
     font-size: 18px;
@@ -46,9 +45,8 @@ header button{
 
 section{
     align-items: center;
-    width: 1280px;
-    height: 560px;
-    margin: 0 auto;
+    justify-content: space-between;
+    margin: 51px 160px 0px 160px;
     background-color: #C6E4D6;
     border-radius: 24px;
 }
@@ -57,6 +55,8 @@ section div h3{
     color: rgba(14, 14, 14, 0.50);
     font-family: "Fira Sans";
     font-size: 24px;
+    margin-left: 60px;
+    margin-top: 117px;
     font-style: normal;
     font-weight: 500;
 }
@@ -65,10 +65,13 @@ section div p{
     color: #0E0E0E;
     font-family: "Fira Sans";
     font-size: 56px;
+    margin-top: 16px;
+    margin-left: 60px;
     font-style: normal;
     font-weight: 700;
 }
 section div button{
+    margin: 24px 0px 117px 60px;
     background-color: #006A50;
     font-family: "Fira Sans";
     color: white;
@@ -81,6 +84,33 @@ section div button{
     border-radius: 8px;
     border:none
 }
-section{
 
+.hero-logo{
+    margin: 80px 68px 80px 60px;
+}
+
+div h2{
+    margin: 80px 160px ;
+    color: #0E0E0E;
+    font-family: fira sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+}
+div h1{
+    margin: 80px 160px ;
+    color: #0E0E0E;
+    font-family: fira sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.small-box1{
+    width: 302px;
+    padding: 24px;
+    flex-direction: column;
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: #FFF;
 }
