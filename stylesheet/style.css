@@ -10,7 +10,7 @@
 }
 
 header{
-    margin:24px 160px 0px 160px;
+    margin:24px 380px 0px 380px;
     justify-content: space-between;
     align-items: center;
 }
@@ -45,7 +45,7 @@ header button{
 .section-box{
     align-items: center;
     justify-content: space-between;
-    margin: 51px 160px 0px 160px;
+    margin: 51px 380px 0px 380px;
     background-color: #C6E4D6;
     border-radius: 24px;
 }
@@ -88,76 +88,73 @@ header button{
     margin: 80px 68px 80px 60px;
 }
 
-div h2{
-    margin: 80px 0px 0px 160px;
-    color: #0E0E0E;
-    font-family: "fira sans";
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 700;
-}
-div h1{
-    margin: 80px 160px ;
+/* Pillars */
+
+.pillars-title{
+    margin: 80px 380px 0px 380px;
     color: #0E0E0E;
     font-family:"fira sans";
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
 }
-div p{
-    margin-top: 24px;
-    margin-left: 160px;
-}
 
-.small-box1{
-    width: 302px;
-    padding: 24px;
-    flex-direction: column;
-    border-radius: 16px;
-    border: 1px solid rgba(14, 14, 14, 0.15);
-    background: #FFF;
-}
-
-/* section-column */
+/* column section */
 .column{
-    margin: 32px 160px;
     display: flex;
-    justify-content: space-between;
+    margin: 32px 380px 0px 380px;
+    gap: 30px;
     font-family: "fira sans";
+}
+
+.column-1{
+    width: 260px;
+    padding: 24px;
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: #FFF;
+}
+.column-2{
+    width: 260px;
+    padding: 24px;
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: #FFF;
+}
+.column-3{
+    width: 260px;
+    padding: 24px;
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: #FFF;
+}
+.column-4{
+    width: 260px;
+    padding: 24px;
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: #FFF;
+}
+
+
+/* The-Vision */
+
+.vision-title{
+    margin: 80px 380px 0px 380px;
+    color: #0E0E0E;
+    font-family:"fira sans";
+    font-size: 40px;
     font-style: normal;
+    font-weight: 700;
 }
-.column-aline h3 p{
-    align-items: flex-start;
-}
-
-.column-box1 {
-    width: 302px;
-    padding: 24px;
-    border-radius: 16px;
-    border: 1px solid rgba(14, 14, 14, 0.15);
-    background: #FFF;
+.vision-description{
+    margin: 24px 380px 0px 380px;
+    color: rgba(14, 14, 14, 0.70);
+    font-family: "Fira Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
 }
 
-.column-box2{
-    width: 302px;
-    padding: 24px;
-    border-radius: 16px;
-    border: 1px solid rgba(14, 14, 14, 0.15);
-    background: #FFF;
-}
 
-.column-box3{
-    width: 302px;
-    padding: 24px;
-    border-radius: 16px;
-    border: 1px solid rgba(14, 14, 14, 0.15);
-    background: #FFF;
-}
 
-.column-box4{
-    width: 302px;
-    padding: 24px;
-    border-radius: 16px;
-    border: 1px solid rgba(14, 14, 14, 0.15);
-    background: #FFF;
-}
