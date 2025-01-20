@@ -102,8 +102,8 @@ header button{
 /* column section */
 .column{
     display: flex;
+    justify-content: space-between;
     margin: 32px 380px 0px 380px;
-    gap: 30px;
     font-family: "fira sans";
 }
 
@@ -155,6 +155,75 @@ header button{
     font-style: normal;
     font-weight: 400;
 }
+/* Digital-Green-Modern-box */
 
+.color-box{
+    margin: 32px 380px 0px 380px;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Fira Sans"
+}
 
+.digital-trans{
+    width: 347px;
+    padding: 32px;
+    border-radius: 16px;
+    border: 0px solid #5490F5;
+    background-color: rgba(84, 144, 245, 0.20);
+}
+.green-energy{
+    width: 347px;
+    padding: 32px;
+    border-radius: 16px;
+    border: 0px solid #09A15C;
+    background-color: #C6E4D6 ;
+}
+.modern-infras{
+    width: 347px;
+    padding: 32px;
+    border-radius: 16px;
+    border: 0px solid #FFC239;
+    background-color: #F7EBCF ;
+}
+/* button */
 
+.blue-button{
+    background: #5490F5;
+    border-radius: 8px;
+    padding: 11px 20px;
+    color: #FFF;
+    font-family: "Fira Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    border: 0px;
+}
+.green-button{
+    background: #09A15C;
+    border-radius: 8px;
+    padding: 11px 20px;
+    color: #FFF;
+    font-family: "Fira Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    border: 0px;
+}
+.yellow-button{
+    background: #FFC239 ;
+    border-radius: 8px;
+    padding: 11px 20px;
+    color: #FFF;
+    font-family: "Fira Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    border: 0px;
+}
+/* container-grid */
+.container{
+    width: 1216;
+    padding: 32px;
+    border-radius: 16px;
+
+}
