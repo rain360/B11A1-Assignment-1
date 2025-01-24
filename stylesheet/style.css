@@ -3,6 +3,8 @@
 
 .body{
     color: rgba(213, 214, 216, 1);
+    width: auto;
+    height: auto;
 }
 
 .display-flex {
@@ -220,10 +222,49 @@ header button{
     font-weight: 600;
     border: 0px;
 }
+/* quote */
+
+.quote-box{
+    padding: 50gipx 25px;
+    background: #FFF;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    margin: 32px 320px 0px 320px;
+    font-family: "Fira Sans";
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: 25px 38px;
+}
+.quote-text{
+    color: rgba(14, 14, 14, 0.80);
+    font-family: "Fira Sans";
+    font-size:16px;
+    font-style: normal;
+    font-weight: 400;
+}
+.quote-text p{
+    color: rgba(14, 14, 14, 0.60);
+    font-family: "Fira Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
 /* container-grid */
-.container {
+.opinion-text{
+    margin: 24px 320px 0px 320px;
+    font-family: "Fira Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+}
+.container{
     display: grid;
-    grid-template-columns: repeat(2, 250px);
+    margin: 80px 320px 0px 320px;
+    padding: 32px;
+    border-radius: 16px;
+    background: #FFF;
+    grid-template-columns: repeat(2,250px);
     grid-template-rows: repeat(3, 100px);
     width: 1000px;
     grid-template-areas:
