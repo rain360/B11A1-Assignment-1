@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600;700;800&display=swap');
-
+@import "tailwindcss";
 
 .body{
     color: rgba(213, 214, 216, 1);
@@ -249,44 +249,60 @@ header button{
     font-style: normal;
     font-weight: 400;
 }
-
-/* container-grid */
 .opinion-text{
-    margin: 24px 320px 0px 320px;
+    margin: 80px 320px 0px 320px;
+    color: #0E0E0E;
     font-family: "Fira Sans";
-    font-size: 40px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 700;
 }
-.container{
-    display: grid;
-    margin: 80px 320px 0px 320px;
-    padding: 32px;
+/* container-grid */
+
+.table{
+    margin: 0px 320px 0px 320px;
     border-radius: 16px;
     background: #FFF;
-    grid-template-columns: repeat(2,250px);
-    grid-template-rows: repeat(3, 100px);
-    width: 1000px;
-    grid-template-areas:
-      " one two"
-      " three four"
-      " five six ";
-  }
-  .box:nth-child(1) {
-    grid-area: one;
-  }
-  .box:nth-child(2) {
-    grid-area: two;
-  }
-  .box:nth-child(3) {
-    grid-area: three;
-  }
-  .box:nth-child(4) {
-    grid-area: four;
-  }
-  .box:nth-child(5) {
-    grid-area: five;
-  }
-  .box:nth-child(6) {
-    grid-area: six;
-  }
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+table {
+    border-collapse: collapse;
+    padding: 32px;
+    width: 1440px;
+    border-radius: 16px;
+    background: #FFF;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 32px;
+    text-align: left;
+    font-family: "Fira Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+th {
+    background-color: #d9f1e3;
+    color: #0E0E0E;
+    font-family: "Fira Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.dropdown {
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid #0E0E0E;
+    background: rgba(9, 161, 92, 0.15);
+}
+
+.dropdown:hover {
+    background-color: #e6f7ee;
+}
